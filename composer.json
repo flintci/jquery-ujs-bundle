@@ -1,0 +1,26 @@
+{
+    "name": "flintci/jquery-ujs-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle adapter for jQuery-ujs and CSRF protection",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sullivan SENECHAL",
+            "email": "soullivaneuh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/http-kernel": "^3.4 || ^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlintCI\\jQueryUJSBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FlintCI\\jQueryUJSBundle\\Tests\\": "tests"
+        }
+    }
+}
