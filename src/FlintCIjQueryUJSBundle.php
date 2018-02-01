@@ -6,6 +6,6 @@ namespace FlintCI\jQueryUJSBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class jQueryUJSBundle extends Bundle
+final class FlintCIjQueryUJSBundle extends Bundle
 {
 }
