@@ -1,0 +1,36 @@
+branches:
+  only:
+    - master
+
+language: php
+
+php:
+  - 7.1
+  - 7.2
+  - nightly
+
+env:
+  global:
+    - PATH="$HOME/.composer/vendor/bin:$PATH"
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 7.1
+      env: COMPOSER_FLAGS="--prefer-lowest"
+  allow_failures:
+    - php: nightly
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+install:
+  - wget https://github.com/php-coveralls/php-coveralls/releases/download/v2.0.0/php-coveralls.phar
+  - wget -O phpunit.phar https://phar.phpunit.de/phpunit-6.phar
+  - composer update --prefer-dist --no-interaction ${COMPOSER_FLAGS}
+
+script: php phpunit.phar -c phpunit.xml.dist --coverage-clover build/logs/clover.xml
+
+after_script:
+  - php php-coveralls.phar -v
