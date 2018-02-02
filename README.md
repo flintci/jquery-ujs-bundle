@@ -10,8 +10,8 @@ Symfony bundle adapter for [jQuery-ujs](https://github.com/rails/jquery-ujs) and
 [![Monthly Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundler/d/monthly)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
 [![Daily Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundler/d/daily)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
 
-[![Build Status](https://travis-ci.org/flintci/jquery-ujs-bundle.svg?branch=3.x)](https://travis-ci.org/flintci/jquery-ujs-bundle)
-[![Coverage Status](https://coveralls.io/repos/flintci/jquery-ujs-bundle/badge.svg?branch=3.x)](https://coveralls.io/r/flintci/jquery-ujs-bundle?branch=3.x)
+[![Build Status](https://travis-ci.org/flintci/jquery-ujs-bundle.svg?branch=master)](https://travis-ci.org/flintci/jquery-ujs-bundle)
+[![Coverage Status](https://coveralls.io/repos/flintci/jquery-ujs-bundle/badge.svg?branch=master)](https://coveralls.io/r/flintci/jquery-ujs-bundle?branch=master)
 
 ## Installation
 
