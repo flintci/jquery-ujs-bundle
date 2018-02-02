@@ -2,13 +2,13 @@
 
 Symfony bundle adapter for [jQuery-ujs](https://github.com/rails/jquery-ujs) and CSRF protection.
 
-[![Latest Stable Version](https://poser.pugx.org/flintci/jquery-ujs-bundler/v/stable)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
-[![Latest Unstable Version](https://poser.pugx.org/flintci/jquery-ujs-bundler/v/unstable)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
-[![License](https://poser.pugx.org/flintci/jquery-ujs-bundler/license)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
+[![Latest Stable Version](https://poser.pugx.org/flintci/jquery-ujs-bundle/v/stable)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/flintci/jquery-ujs-bundle/v/unstable)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
+[![License](https://poser.pugx.org/flintci/jquery-ujs-bundle/license)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
 
-[![Total Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundler/downloads)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
-[![Monthly Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundler/d/monthly)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
-[![Daily Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundler/d/daily)](https://packagist.org/packages/flintci/jquery-ujs-bundler)
+[![Total Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundle/downloads)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
+[![Monthly Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundle/d/monthly)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
+[![Daily Downloads](https://poser.pugx.org/flintci/jquery-ujs-bundle/d/daily)](https://packagist.org/packages/flintci/jquery-ujs-bundle)
 
 [![Build Status](https://travis-ci.org/flintci/jquery-ujs-bundle.svg?branch=master)](https://travis-ci.org/flintci/jquery-ujs-bundle)
 [![Coverage Status](https://coveralls.io/repos/flintci/jquery-ujs-bundle/badge.svg?branch=master)](https://coveralls.io/r/flintci/jquery-ujs-bundle?branch=master)
